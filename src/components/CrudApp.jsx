@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
-const API_URL = 'http://localhost:5000/api/items'
+const API_URL = 'testdeploymernprojectbackend-production.up.railway.app/api/items'
+
 
 function CrudApp() {
   const [items, setItems] = useState([])
