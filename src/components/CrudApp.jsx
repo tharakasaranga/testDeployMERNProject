@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
-const API_URL = 'testdeploymernprojectbackend-production.up.railway.app/api/items'
+
+const API_URL = 'https://testdeploymernprojectbackend-production.up.railway.app/api/items'
 
 
 function CrudApp() {
