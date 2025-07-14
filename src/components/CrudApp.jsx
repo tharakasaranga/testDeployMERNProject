@@ -3,8 +3,9 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 
-const API_URL = 'https://replit.com/@tharakasaranga7/testDeployMERNProjectbackEnd-1/api/items'
+const API_URL = 'https://testdeploymernprojectbackend-production.up.railway.app/api/items'
 //https://testdeploymernprojectbackend-production.up.railway.app
+//https://replit.com/@tharakasaranga7/testDeployMERNProjectbackEnd-1
 
 function CrudApp() {
   const [items, setItems] = useState([])
