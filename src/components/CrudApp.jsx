@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 
-const API_URL = 'https://36b2e5a2-59fc-4873-9739-781549e63fa9-00-b5dx8zlsxxpm.pike.replit.dev/api/items'
+const API_URL = 'http://ec2-3-83-106-201.compute-1.amazonaws.com:5000/api/items'
 //https://testdeploymernprojectbackend-production.up.railway.app
 
 //https://replit.com/@tharakasaranga7/testDeployMERNProjectbackEnd-1?v=1
