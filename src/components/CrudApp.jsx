@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
+const API_URL = 'http://ec2-44-202-61-170.compute-1.amazonaws.com:5000/api/items'
 
-const API_URL = 'https://ec2-44-202-61-170.compute-1.amazonaws.com/api/items'
 //https://testdeploymernprojectbackend-production.up.railway.app
 
 //https://replit.com/@tharakasaranga7/testDeployMERNProjectbackEnd-1?v=1
